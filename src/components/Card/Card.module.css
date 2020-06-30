@@ -3,34 +3,15 @@
   max-width: 275px;
   height: 100%;
   width: 100%;
-  border-radius: 5px;
-  -webkit-box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
-          box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
-  border: solid 2px #46326f;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   background-color: white;
   position: absolute;
 }
 
-.recipeCard .front:hover, .recipeCard .back:hover {
-  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.27), 0 10px 10px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.27), 0 10px 10px rgba(0, 0, 0, 0.3);
-  border: solid 2px #ec4566;
-  cursor: pointer;
-}
-
-.recipeCard .front:hover .recipeDetails, .recipeCard .back:hover .recipeDetails {
-  border-color: #ec4566;
-}
-
-.recipeCard .front:hover .recipeDetails h2, .recipeCard .back:hover .recipeDetails h2 {
-  color: #ec4566;
-}
-
 .recipeCard {
-  height: 100%;
-  width: 100%;
+  height: 400px;
+  width: 275px;
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
   transition: transform 1s;

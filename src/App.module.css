@@ -19,4 +19,9 @@
           justify-content: center;
   width: 110%;
 }
+
+.content .card {
+  height: 400px;
+  width: 275px;
+}
 /*# sourceMappingURL=App.module.css.map */

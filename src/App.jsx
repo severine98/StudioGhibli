@@ -3,9 +3,7 @@ import styles from "./App.module.scss";
 import Card from "./components/Card";
 import NavBar from "./components/NavBar";
 import SearchBy from "./components/SearchBy";
-
 import filmList from "./films/films";
-// import PeoplePage from "./pages"
 
 
 class App extends Component {

@@ -4,13 +4,13 @@ import CardFront from "../CardFront";
 import CardBack from "../CardBack"; 
 
 class Card extends Component {
-  // state = {
-  //   isFaceDown: false,
-  // };
+  state = {
+    isFaceDown: false,
+  };
 
-  // flipCard = () => {
-  //   this.setState({ isFaceDown: !this.state.isFaceDown });
-  // };
+  flipCard = () => {
+    this.setState({ isFaceDown: !this.state.isFaceDown });
+  };
 
   // getFav = () => 
     // this.state.isFaceDown ? <CardFront film={film} /> : <CardBack film={film} />
@@ -20,12 +20,12 @@ class Card extends Component {
       film
     } = this.props;
 
-    // const flipStyles = this.state.isFaceDown ? styles.faceDown : "";
+    const flipStyles = this.state.isFaceDown ? styles.faceDown : "";
 
     return (
       <section
-        // className={`${styles.recipeCard} ${flipStyles}`}
-        // onClick={() => this.flipCard()}
+        className={`${styles.recipeCard} ${flipStyles}`}
+        onClick={() => this.flipCard()}
       >
         
         <div className={styles.front}>

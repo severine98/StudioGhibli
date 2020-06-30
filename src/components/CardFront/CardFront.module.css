@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cardFront {
+  height: 300px;
+  max-width: 200px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
+          box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
+  border: solid 2px #46326f;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: white;
+  margin: 20px;
+}
+
+.cardFront img {
+  height: 150px;
+  width: 100%;
+  border-radius: 2px 2px 0 0;
+}
+
+.cardFront .front {
+  padding: 0 10px;
+  margin: 0;
+  height: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.cardFront .front h2 {
+  font-size: 1em;
+}
+
+.cardFront .front h3 {
+  font-size: 0.8em;
+}
+
+.cardFront .front p {
+  font-size: 0.7em;
+}
+/*# sourceMappingURL=CardFront.module.css.map */

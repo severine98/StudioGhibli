@@ -1,0 +1,22 @@
+.content .sectionApp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .searchBy {
+  position: fixed;
+}
+
+.content .filmList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 110%;
+}
+/*# sourceMappingURL=App.module.css.map */

@@ -1,0 +1,22 @@
+.content{
+  
+  .sectionApp{
+    display: flex;
+  }
+
+  .searchBy{
+    position: fixed
+  }
+
+  .filmList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 110%;
+  }
+
+  .card {
+    height: 400px;
+    width: 275px;
+  }
+}

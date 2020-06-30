@@ -1,0 +1,36 @@
+.nav{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: #00ADEF;
+  width: 100%;
+
+  img{
+    height: 100%;
+  }
+
+  article{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    h1{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-left: 10px;
+    }
+  }
+
+  section{
+    display: flex;
+    align-items: center;
+    
+    p{
+      padding: 0 20px;
+
+      &:hover{
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}

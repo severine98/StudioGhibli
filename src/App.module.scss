@@ -1,18 +1,13 @@
 .content{
   
+  
   .sectionApp{
     display: flex;
+    border: 4px solid red;
   }
 
   .searchBy{
     position: fixed
-  }
-
-  .filmList{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 110%;
   }
 
   .card {

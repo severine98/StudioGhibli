@@ -12,9 +12,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 110%;
-  width: 20%;
+  height: 100%;
+  width: 800px;
   background-color: #F2D0A9;
+  border: 4px salmon solid;
+  position: static;
 }
 
 .searchBy h1 {

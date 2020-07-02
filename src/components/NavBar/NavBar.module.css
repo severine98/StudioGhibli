@@ -5,7 +5,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 50px;
+  height: 100px;
   background-color: #00ADEF;
   width: 100%;
 }
@@ -54,6 +54,9 @@
 
 .nav section p {
   padding: 0 20px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
 }
 
 .nav section p:hover {

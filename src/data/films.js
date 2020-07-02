@@ -20,6 +20,7 @@ const films = [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
     "url": "https://ghibliapi.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe",
+    "watched" : true,
     "picture" : "https://entropymag.org/wp-content/uploads/2015/01/laputa.jpg"
   },
   {
@@ -42,6 +43,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : true,
     "url": "https://ghibliapi.herokuapp.com/films/12cfb892-aac0-4c5b-94af-521852e46d6a",
     "picture" : "https://static.standard.co.uk/s3fs-public/thumbnails/image/2020/05/07/15/grave-of-the-fireflies-studio-ghibli.jpg?w968"
   },
@@ -76,6 +78,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : true,
     "url": "https://ghibliapi.herokuapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49", 
     "picture" : "https://cdn.vox-cdn.com/thumbor/6yITJIuEAdgWPx81QxmCojfR7Qg=/0x0:1920x1080/1400x1400/filters:focal(736x383:1042x689):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/55049321/totoro.0.jpg"
   },
@@ -99,6 +102,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : true,
     "url": "https://ghibliapi.herokuapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e",
     "picture" : "https://miro.medium.com/max/2560/1*gtINLrbaZXuIfZcUAriSTw@2x.jpeg"
   },
@@ -122,6 +126,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : false,
     "url": "https://ghibliapi.herokuapp.com/films/4e236f34-b981-41c3-8c65-f8c9000b94e7",
     "picture" : "https://blogscdn.thehut.net/app/uploads/sites/39/2019/09/YESTERDAY-FB_1568043809.jpg"
   },
@@ -145,6 +150,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : true,
     "url": "https://ghibliapi.herokuapp.com/films/ebbb6b7c-945c-41ee-a792-de0e43191bd8",
     "picture" : "https://cdn.flickeringmyth.com/wp-content/uploads/2018/05/Porco-Rosso-2-600x322.jpg"
   },
@@ -168,6 +174,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : false,
     "url": "https://ghibliapi.herokuapp.com/films/1b67aa9a-2e4a-45af-ac98-64d6ad15b16c",
     "picture" : "https://www.isthismoviesuitable.com/wp-content/uploads/2013/05/Pom-Poko-featured-image-1280x720.jpg"
   },
@@ -191,6 +198,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : true,
     "url": "https://ghibliapi.herokuapp.com/films/ff24da26-a969-4f0e-ba1e-a122ead6c6e3", 
     "picture" : "https://cdn.vox-cdn.com/thumbor/VGSV_HGIJ6fvPO-3_8L2FdOt5LM=/0x0:1780x1004/1200x800/filters:focal(748x360:1032x644)/cdn.vox-cdn.com/uploads/chorus_image/image/66864686/GHI_WhisperOfTheHeart_Select3.0.jpg"
   },
@@ -225,6 +233,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : true,
     "url": "https://ghibliapi.herokuapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6", 
     "picture" : "https://www.awn.com/sites/default/files/styles/original/public/image/featured/1049425-limited-edition-princess-mononoke-collectors-set-arrives-today.jpg?itok=fy_CVUBL"
   },
@@ -248,6 +257,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : false,
     "url": "https://ghibliapi.herokuapp.com/films/45204234-adfd-45cb-a505-a8e7a676b114", 
     "picture" : "https://www.japansociety.org/resources/legacy/event/yamadas_xl.jpg"
   },
@@ -271,6 +281,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : true,
     "url": "https://ghibliapi.herokuapp.com/films/dc2e6bd1-8156-4886-adff-b39e6043af0c", 
     "picture" : "https://www.indiewire.com/wp-content/uploads/2017/07/shutterstock_5885275v.jpg"
   },
@@ -294,6 +305,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : true,
     "url": "https://ghibliapi.herokuapp.com/films/90b72513-afd4-4570-84de-a56c312fdf81", 
     "picture" : "https://insidepulse.com/wp-content/uploads/2018/01/vlcsnap-2018-01-23-15h35m52s308-e1516743331229-620x315.png"
   },
@@ -317,6 +329,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : true,
     "url": "https://ghibliapi.herokuapp.com/films/cd3d059c-09f4-4ff3-8d63-bc765a5184fa", 
     "picture" : "https://moviebarfcom.files.wordpress.com/2020/04/1041062-3rd-pick-howls-moving-castle-lr.jpg"
   },
@@ -340,6 +353,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : false,
     "url": "https://ghibliapi.herokuapp.com/films/112c1e67-726f-40b1-ac17-6974127bb9b9", 
     "picture" : "https://i1.wp.com/www.tor.com/wp-content/uploads/2018/10/earthsea-dragon-ghibli.png?fit=740%2C+9999&crop=0%2C0%2C100%2C389px&ssl=1"
   },
@@ -363,6 +377,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : true,
     "url": "https://ghibliapi.herokuapp.com/films/758bf02e-3122-46e0-884e-67cf83df1786", 
     "picture" : "https://entropymag.org/wp-content/uploads/2015/10/Ponyo-screencaps-ponyo-on-the-cliff-by-the-sea-30547637-1920-1080.png"
   },
@@ -386,6 +401,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : true,
     "url": "https://ghibliapi.herokuapp.com/films/2de9426b-914a-4a06-a3a0-5e6d9d3886f6", 
     "picture" : "https://vignette.wikia.nocookie.net/studio-ghibli/images/6/6f/Arrietty.png/revision/latest?cb=20181024033322"
   },
@@ -409,6 +425,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : false,
     "url": "https://ghibliapi.herokuapp.com/films/45db04e4-304a-4933-9823-33f389e8d74d", 
     "picture" : "https://static01.nyt.com/images/2013/03/10/arts/10POPPY1_SPAN/10POPPY1-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
   },
@@ -432,6 +449,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : true,
     "url": "https://ghibliapi.herokuapp.com/films/67405111-37a5-438f-81cc-4666af60c800", 
     "picture" : "https://i.pinimg.com/originals/2a/5e/72/2a5e72b3abdc165f368a8eaa23c7797c.jpg"
   },
@@ -455,6 +473,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : false,
     "url": "https://ghibliapi.herokuapp.com/films/578ae244-7750-4d9f-867b-f3cd3d6fecf4", 
     "picture" : "https://entropymag.org/wp-content/uploads/2015/12/tale-of-princess-kaguya.jpg"
   },
@@ -478,6 +497,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
+    "watched" : false,
     "url": "https://ghibliapi.herokuapp.com/films/5fdfb320-2a02-49a7-94ff-5ca418cae602", 
     "picture" : "https://static01.nyt.com/images/2015/05/22/arts/22MARNIE/22MARNIE-superJumbo-v2.jpg"
   }

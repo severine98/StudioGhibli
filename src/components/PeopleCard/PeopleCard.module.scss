@@ -1,0 +1,45 @@
+$base-spacing: 5px;
+$primary-color: rgb(70, 50, 111);
+$secondary-color: rgb(236, 69, 102);
+$card-shadowing: 0 4px 7px rgba(0, 0, 0, 0.2),
+0 4px 7px rgba(0, 0, 0, 0.27);
+
+
+.cardFront {
+  height: 300px;
+  max-width: 200px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
+  border: solid 2px rgb(70, 50, 111);
+  backface-visibility: hidden;
+  background-color: white;
+  margin: 20px;
+
+  img {
+    height: 150px;
+    width: 100%;
+    border-radius: 2px 2px 0 0;
+  }
+
+  .front {
+    padding: 0 10px;
+    margin: 0;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    h2 {
+      font-size: 1em;
+    }
+
+    h3 {
+      font-size: 0.8em;
+    }
+
+    p {
+      font-size: 0.7em;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Router } from "@reach/router";
 
-import Locations from "../Locations";
+import Watched from "../Watched";
 import People from "../People";
 import Films from "../Films";
 //import NotFound from "../../components/NotFound";
@@ -12,7 +12,7 @@ class Routes extends Component {
       <Router>
         <Films path="/" />
         <People path="people" />
-        <Locations path="locations" />
+        <Watched path="watched" />
         {/* <NotFound default /> */}
       </Router>
     );

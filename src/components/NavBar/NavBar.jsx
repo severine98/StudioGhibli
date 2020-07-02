@@ -21,8 +21,8 @@ class NavBar extends Component {
           <Link to="people">
             <p>People</p>
           </Link>
-          <Link to="locations">
-            <p>Locations</p>
+          <Link to="watched">
+            <p>My Watch List</p>
           </Link>
         </section>
       </div>

@@ -1,10 +1,19 @@
-.page {
+.watched {
+  background-color: pink;
+  margin: 0;
+  height: 50px;
+  padding-left: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  font-size: 15px;
 }
 
-.page .filmList {
+.filmList {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,6 +25,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 190%;
+  width: 100%;
+  border: 4px solid green;
 }
-/*# sourceMappingURL=Films.module.css.map */
+/*# sourceMappingURL=Watched.module.css.map */

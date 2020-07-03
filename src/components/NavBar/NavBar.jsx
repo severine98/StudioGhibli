@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import styles from "./NavBar.module.scss";
-
 import { Link } from "@reach/router";
-
 import logo from "./logo.png";
 
 class NavBar extends Component {
@@ -18,10 +16,10 @@ class NavBar extends Component {
           <Link to="/">
             <p>Films</p>
           </Link>
-          <Link to="people">
+          <Link to="/people">
             <p>People</p>
           </Link>
-          <Link to="watched">
+          <Link to="/watched">
             <p>My Watch List</p>
           </Link>
         </section>

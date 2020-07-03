@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styles from "./People.module.scss";
-
+import NavBar from "../../components/NavBar";
 import PeopleCard from "../../components/PeopleCard";
 import people from "../../data/people";
 import SearchBy from "../../components/SearchBy";
@@ -14,12 +14,15 @@ class People extends Component {
 
   render() {
     return (
-      <div className={styles.page}>
-        <SearchBy />
-        <section className={styles.filmList}>
-          {people.map(this.getCardJsx)}
-        </section>
-      </div>
+      <>
+        <NavBar />
+        <div className={styles.page}>
+          <SearchBy />
+          <section className={styles.filmList}>
+            {people.map(this.getCardJsx)}
+          </section>
+        </div>
+      </>
     );
   }
 }

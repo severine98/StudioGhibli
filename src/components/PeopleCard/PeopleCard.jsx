@@ -3,12 +3,7 @@ import styles from "./PeopleCard.module.scss";
 
 class PeopleCard extends Component {
   render() {
-    const {
-      name, 
-      gender, 
-      age, 
-      image
-    } = this.props.person;
+    const { name, gender, age, image } = this.props.person;
 
     return (
       <div className={styles.cardFront}>

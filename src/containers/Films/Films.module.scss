@@ -1,5 +1,7 @@
 .page{
   display: flex;
+  height: fit-content;
+  position: relative;
 
   .filmList{
     display: flex;

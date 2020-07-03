@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styles from "./Films.module.scss";
-import SearchBy from "../../components/SearchBy"
-
+import SearchBy from "../../components/SearchBy";
+import NavBar from "../../components/NavBar";
 import Card from "../../components/Card";
 import filmList from "../../data/films";
 
@@ -14,12 +14,15 @@ class Films extends Component {
 
   render() {
     return (
-      <div className={styles.page}>
-      < SearchBy />
-      <section className={styles.filmList}>
-        {filmList.map(this.getCardJsx)}
-      </section>
-      </div>
+      <>
+        <NavBar />
+        <div className={styles.page}>
+          <SearchBy />
+          <section className={styles.filmList}>
+            {filmList.map(this.getCardJsx)}
+          </section>
+        </div>
+      </>
     );
   }
 }

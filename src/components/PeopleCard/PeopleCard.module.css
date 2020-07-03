@@ -9,7 +9,7 @@
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   background-color: white;
-  margin: 20px;
+  margin: 20px 40px;
 }
 
 .cardFront img {

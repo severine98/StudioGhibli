@@ -12,9 +12,6 @@ class Card extends Component {
     this.setState({ isFaceDown: !this.state.isFaceDown });
   };
 
-  // getFav = () =>
-  // this.state.isFaceDown ? <CardFront film={film} /> : <CardBack film={film} />
-
   render() {
     const { film } = this.props;
 

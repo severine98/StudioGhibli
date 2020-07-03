@@ -1,4 +1,6 @@
-.searchBy {
+.notFound {
+  background-image: url(./notfound.png);
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6,21 +8,17 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 800px;
-  background-color: #F2D0A9;
 }
 
-.searchBy h1 {
-  margin-top: 40px;
-}
-
-.searchBy section {
+.notFound div {
+  border: solid black 4px;
+  background-color: blanchedalmond;
+  width: 30%;
+  margin-top: 50px;
+  padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,23 +26,21 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100vh;
-  background-color: #F2D0A9;
 }
 
-.searchBy section a {
-  color: black;
+.notFound div a {
+  font-weight: bold;
   text-decoration: none;
-  padding: 0 10px;
+  margin: 5px 0;
 }
 
-.searchBy section a:hover {
-  text-decoration: underline;
+.notFound div a:hover {
+  color: palevioletred;
 }
-/*# sourceMappingURL=SearchBy.module.css.map */
+/*# sourceMappingURL=NotFound.module.css.map */

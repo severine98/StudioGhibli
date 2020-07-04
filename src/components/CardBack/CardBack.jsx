@@ -4,10 +4,10 @@ import styles from "./CardBack.module.scss";
 class CardBack extends Component {
   shortenDescription = (movieDescription) => {
     console.log(movieDescription.length);
-    if (movieDescription.length < 900) {
+    if (movieDescription.length < 180) {
       return movieDescription;
     } else {
-      return movieDescription.substring(0, 200) + "..."; //Need to figure this out
+      return movieDescription.substring(0, 350) + "..."; //Need to figure this out
     }
   };
 

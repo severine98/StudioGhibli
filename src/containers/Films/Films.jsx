@@ -10,7 +10,7 @@ class Films extends Component {
     <React.Fragment key={film.id}>
       <Card film={film} />
     </React.Fragment>
-  );
+  ); 
 
   render() {
     return (

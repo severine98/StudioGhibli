@@ -239,7 +239,7 @@ const films = [
   },
   {
     "id": "45204234-adfd-45cb-a505-a8e7a676b114",
-    "title": "My Neighbors the Yamadas",
+    "title": "My Neighbors the Y..",
     "description": "The Yamadas are a typical middle class Japanese family in urban Tokyo and this film shows us a variety of episodes of their lives. With tales that range from the humourous to the heartbreaking, we see this family cope with life's little conflicts, problems and joys in their own way.",
     "director": "Isao Takahata",
     "producer": "Toshio Suzuki",
@@ -385,7 +385,7 @@ const films = [
     "id": "2de9426b-914a-4a06-a3a0-5e6d9d3886f6",
     "title": "Arrietty",
     "description": "14-year-old Arrietty and the rest of the Clock family live in peaceful anonymity as they make their own home from items 'borrowed' from the house's human inhabitants. However, life changes for the Clocks when a human boy discovers Arrietty.",
-    "director": "Hiromasa Yonebayashi",
+    "director": "H. Yonebayashi",
     "producer": "Toshio Suzuki",
     "release_date": "2010",
     "rt_score": "95",
@@ -425,7 +425,7 @@ const films = [
     "vehicles": [
       "https://ghibliapi.herokuapp.com/vehicles/"
     ],
-    "watched" : false,
+    "watched" : true,
     "url": "https://ghibliapi.herokuapp.com/films/45db04e4-304a-4933-9823-33f389e8d74d", 
     "picture" : "https://static01.nyt.com/images/2013/03/10/arts/10POPPY1_SPAN/10POPPY1-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
   },
@@ -455,7 +455,7 @@ const films = [
   },
   {
     "id": "578ae244-7750-4d9f-867b-f3cd3d6fecf4",
-    "title": "The Tale of the Princess Kaguya",
+    "title": "The Tale of the Princ...",
     "description": "A bamboo cutter named Sanuki no Miyatsuko discovers a miniature girl inside a glowing bamboo shoot. Believing her to be a divine presence, he and his wife decide to raise her as their own, calling her 'Princess'.",
     "director": "Isao Takahata",
     "producer": "Yoshiaki Nishimura",
@@ -479,9 +479,9 @@ const films = [
   },
   {
     "id": "5fdfb320-2a02-49a7-94ff-5ca418cae602",
-    "title": "When Marnie Was There",
+    "title": "When Marnie Was...",
     "description": "The film follows Anna Sasaki living with her relatives in the seaside town. Anna comes across a nearby abandoned mansion, where she meets Marnie, a mysterious girl who asks her to promise to keep their secrets from everyone. As the summer progresses, Anna spends more time with Marnie, and eventually Anna learns the truth about her family and foster care.",
-    "director": "Hiromasa Yonebayashi",
+    "director": "H. Yonebayashi",
     "producer": "Yoshiaki Nishimura",
     "release_date": "2014",
     "rt_score": "92",

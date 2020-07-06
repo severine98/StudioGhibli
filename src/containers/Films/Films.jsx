@@ -12,12 +12,14 @@ class Films extends Component {
     </React.Fragment>
   ); 
 
+  
+
   render() {
     return (
       <>
         <NavBar />
         <div className={styles.page}>
-          <SearchBy handleClickShort={this.props.handleClickShort} handleClickLong={this.props.handleClickLong} handleClickOldToNew={this.props.handleClickOldToNew} handleClickNewToOld={this.props.handleClickNewToOld}/>
+          <SearchBy handleClickShort={this.props.handleClickShort} handleClickLong={this.props.handleClickLong} handleClickOldToNew={this.props.handleClickOldToNew} handleClickNewToOld={this.props.handleClickNewToOld} handleClickAtoZ={this.props.handleClickAtoZ} handleClickZtoA={this.props.handleClickZtoA}/>
           <section className={styles.filmList}>
             {filmList.map(this.getCardJsx)}
           </section>

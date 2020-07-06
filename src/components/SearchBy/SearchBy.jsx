@@ -7,9 +7,9 @@ class SearchBy extends Component {
       <div className={styles.searchBy}>
         <h1>Search By</h1>
         <section>
-          <a href="#">A - Z</a> 
+          <a href="#" onClick={this.props.handleClickAtoZ}>A - Z</a> 
           <br />
-          <a href="#">Z - A</a>
+          <a href="#" onClick={this.props.handleClickZtoA}>Z - A</a>
           <br />
           <a href="#" onClick={this.props.handleClickOldToNew}>Oldest to newest</a>
           <br />
@@ -19,7 +19,6 @@ class SearchBy extends Component {
           <br />
           <a href="#" onClick={this.props.handleClickLong}>Longest run time</a>
           <br />
-          <a href="#">My personal ratings</a>
         </section>
       </div>
     );

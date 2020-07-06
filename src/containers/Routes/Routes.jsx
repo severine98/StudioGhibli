@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Router } from "@reach/router";
-
 import Watched from "../Watched";
 import People from "../People";
 import Films from "../Films";
@@ -34,11 +33,21 @@ class Routes extends Component {
     });
     }
 
-    // sortByRunTimeVersa()
+    const sortAtoZ = () => {
+      films.sort(function(a, b) {
+        return a.title.localeCompare(b.title);
+    });
+    }
+
+    const sortZtoA = () => {
+      films.sort(function(a, b) {
+        return b.title.localeCompare(a.title);
+    });
+    }
 
     return (
       <Router>
-        <Films path="/" handleClickShort={sortByRunTime} handleClickLong={sortByRunTimeVersa} handleClickOldToNew={sortOldToNew} handleClickNewToOld={sortNewToOld}/>
+        <Films path="/" handleClickShort={sortByRunTime} handleClickLong={sortByRunTimeVersa} handleClickOldToNew={sortOldToNew} handleClickNewToOld={sortNewToOld} handleClickAtoZ={sortAtoZ}  handleClickZtoA={sortZtoA}/>
         <People path="people" />
         <Watched path="watched" />
         <NotFound default />

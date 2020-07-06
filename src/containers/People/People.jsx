@@ -16,8 +16,8 @@ class People extends Component {
     return (
       <>
         <NavBar />
+        <p className={styles.watched}>The films I have watched so far:</p>
         <div className={styles.page}>
-          <SearchBy />
           <section className={styles.filmList}>
             {people.map(this.getCardJsx)}
           </section>

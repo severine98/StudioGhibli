@@ -4,7 +4,7 @@ const people =
     "id": "ba924631-068e-4436-b6de-f3283fa848f0",
     "name": "Ashitaka",
     "gender": "Male",
-    "age": "late teens",
+    "age": "17",
     "eye_color": "Brown",
     "hair_color": "Brown",
     "films": [
@@ -32,7 +32,7 @@ const people =
     "id": "34277bec-7401-43fa-a00a-5aee64b45b08",
     "name": "Eboshi",
     "gender": "Female",
-    "age": "Unspecified/Adult",
+    "age": "32",
     "eye_color": "Hazel",
     "hair_color": "Black",
     "films": [
@@ -46,7 +46,7 @@ const people =
     "id": "91939012-90b9-46e5-a649-96b898073c82",
     "name": "Jigo",
     "gender": "Male",
-    "age": "Middle age",
+    "age": "56",
     "eye_color": "Black",
     "hair_color": "Brown",
     "films": [
@@ -60,7 +60,7 @@ const people =
     "id": "20e3bd33-b35d-41e6-83a4-57ca7f028d38",
     "name": "Kohroku",
     "gender": "Male",
-    "age": "Adult",
+    "age": "250",
     "eye_color": "Black",
     "hair_color": "Brown",
     "films": [
@@ -74,7 +74,7 @@ const people =
     "id": "8bccdc78-545b-49f4-a4c8-756163a38c91",
     "name": "Gonza",
     "gender": "Male",
-    "age": "Adult",
+    "age": "35",
     "eye_color": "Grey",
     "hair_color": "Bald, but beard is Brown",
     "films": [
@@ -144,7 +144,7 @@ const people =
     "id": "7151abc6-1a9e-4e6a-9711-ddb50ea572ec",
     "name": "Jiji",
     "gender": "Male",
-    "age": "NA",
+    "age": "13",
     "eye_color": "Black",
     "hair_color": "Black",
     "films": [
@@ -200,7 +200,7 @@ const people =
     "id": "87b68b97-3774-495b-bf80-495a5f3e672d",
     "name": "Yasuko Kusakabe",
     "gender": "Female",
-    "age": "Adult",
+    "age": "35",
     "eye_color": "Brown",
     "hair_color": "Dark Brown",
     "films": [
@@ -214,7 +214,7 @@ const people =
     "id": "08ffbce4-7f94-476a-95bc-76d3c3969c19",
     "name": "Granny",
     "gender": "Female",
-    "age": "Elder",
+    "age": "over 60",
     "eye_color": "Black",
     "hair_color": "Grey",
     "films": [
@@ -241,8 +241,8 @@ const people =
   {
     "id": "d39deecb-2bd0-4770-8b45-485f26e1381f",
     "name": "Totoro",
-    "gender": "NA",
-    "age": "",
+    "gender": "N/A",
+    "age": "N/A",
     "eye_color": "Grey",
     "hair_color": "Grey",
     "films": [
@@ -255,8 +255,8 @@ const people =
   {
     "id": "591524bc-04fe-4e60-8d61-2425e42ffb2a",
     "name": "Chu Totoro",
-    "gender": "NA",
-    "age": "",
+    "gender": "N/A",
+    "age": "N/A",
     "eye_color": "Black",
     "hair_color": "Blue",
     "films": [
@@ -269,8 +269,8 @@ const people =
   {
     "id": "c491755a-407d-4d6e-b58a-240ec78b5061",
     "name": "Chibi Totoro",
-    "gender": "NA",
-    "age": "",
+    "gender": "N/A",
+    "age": "N/A",
     "eye_color": "Black",
     "hair_color": "White",
     "films": [
@@ -284,7 +284,7 @@ const people =
     "id": "f467e18e-3694-409f-bdb3-be891ade1106",
     "name": "Catbus",
     "gender": "Male",
-    "age": "NA",
+    "age": "N/A",
     "eye_color": "Yellow",
     "hair_color": "Brown",
     "films": [
@@ -298,7 +298,7 @@ const people =
     "id": "89026b3a-abc4-4053-ab1a-c6d2eea68faa",
     "name": "Niya",
     "gender": "Male",
-    "age": "NA",
+    "age": "25",
     "eye_color": "White",
     "hair_color": "Beige",
     "films": [
@@ -312,7 +312,7 @@ const people =
     "id": "6b3facea-ea33-47b1-96ce-3fc737b119b8",
     "name": "Renaldo Moon aka Moon aka Muta",
     "gender": "Male",
-    "age": "NA",
+    "age": "150",
     "eye_color": "White",
     "hair_color": "Beige",
     "films": [
@@ -341,7 +341,7 @@ const people =
     "id": "58d1973f-f247-47d7-9358-e56cb0d2b5a6",
     "name": "Yuki",
     "gender": "Female",
-    "age": "NA",
+    "age": "22",
     "eye_color": "Blue",
     "hair_color": "White",
     "films": [
@@ -369,7 +369,7 @@ const people =
     "id": "fc196c4f-0201-4ed2-9add-c6403f7c4d32",
     "name": "Baron Humbert von Gikkingen",
     "gender": "Male",
-    "age": "NA",
+    "age": "28",
     "eye_color": "Green",
     "hair_color": "Yellow",
     "films": [
@@ -384,7 +384,7 @@ const people =
     "id": "466bc926-2024-4653-ac63-fe52f2dc8c7b",
     "name": "Natori",
     "gender": "Male",
-    "age": "NA",
+    "age": "54",
     "eye_color": "Blue",
     "hair_color": "Grey",
     "films": [

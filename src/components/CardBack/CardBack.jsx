@@ -3,7 +3,6 @@ import styles from "./CardBack.module.scss";
 
 class CardBack extends Component {
   shortenDescription = (movieDescription) => {
-    console.log(movieDescription.length);
     if (movieDescription.length < 180) {
       return movieDescription;
     } else {

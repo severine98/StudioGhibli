@@ -17,7 +17,7 @@ class Films extends Component {
       <>
         <NavBar />
         <div className={styles.page}>
-          <SearchBy />
+          <SearchBy handleClickShort={this.props.handleClickShort} handleClickLong={this.props.handleClickLong} handleClickOldToNew={this.props.handleClickOldToNew} handleClickNewToOld={this.props.handleClickNewToOld}/>
           <section className={styles.filmList}>
             {filmList.map(this.getCardJsx)}
           </section>

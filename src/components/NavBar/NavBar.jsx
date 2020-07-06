@@ -17,7 +17,7 @@ class NavBar extends Component {
             <p>Films</p>
           </Link>
           <Link to="/people">
-            <p>People</p>
+            <p>Characters</p>
           </Link>
           <Link to="/watched">
             <p>My Watch List</p>

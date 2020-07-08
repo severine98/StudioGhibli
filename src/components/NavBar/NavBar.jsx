@@ -6,9 +6,11 @@ import logo from "./logo.png";
 class NavBar extends Component {
   render() {
     return (
-      <div className={styles.nav}>
-        <article>
-          <img src={logo} alt="logo" />
+      <navbar className={styles.nav}>
+        <article className={styles.leftSideOfNav}>
+          <div className={styles.imgContainer}>
+                <img src={logo} alt="logo" />
+          </div>
           <h1>All about Studio Ghibli!</h1>
         </article>
 
@@ -23,7 +25,7 @@ class NavBar extends Component {
             <p>My Watch List</p>
           </Link>
         </section>
-      </div>
+      </navbar>
     );
   }
 }

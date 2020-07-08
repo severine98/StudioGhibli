@@ -3,7 +3,6 @@ import styles from "./People.module.scss";
 import NavBar from "../../components/NavBar";
 import PeopleCard from "../../components/PeopleCard";
 import people from "../../data/people";
-import SearchBy from "../../components/SearchBy";
 
 class People extends Component {
   getCardJsx = (person) => (

@@ -5,7 +5,7 @@ class SearchBy extends Component {
   render() {
     return (
       <div className={styles.searchBy}>
-        <h1>Search By</h1>
+        <h1>Search By</h1> <br/>
         <section>
           <a href="#" onClick={this.props.handleClickAtoZ}>A - Z</a> 
           <br />

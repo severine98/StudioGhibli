@@ -18,7 +18,6 @@ class Routes extends Component {
       films.sort(function(a, b) {
         return b.rt_score - a.rt_score;
     });
-    console.log("hi i work");
     };
 
     const sortOldToNew = () => {

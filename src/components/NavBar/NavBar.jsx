@@ -15,14 +15,14 @@ class NavBar extends Component {
         </article>
 
         <section>
-          <Link to="/">
-            <p>Films</p>
+          <Link to="/" className={styles.links}>
+            <p >Films</p>
           </Link>
-          <Link to="/people">
+          <Link to="/people" className={styles.links}>
             <p>Characters</p>
           </Link>
-          <Link to="/watched">
-            <p>My Watch List</p>
+          <Link to="/watched" className={styles.links}>
+            <p>Sevs' Watch List</p>
           </Link>
         </section>
       </navbar>

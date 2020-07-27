@@ -1,6 +1,6 @@
 
 .watched{
-  background-color: pink;
+  background-color: rgb(190, 214, 154);
   margin: 0;
   height: 50px;
   padding-left: 20px;
@@ -8,6 +8,7 @@
   align-items: center;
   font-weight: bold;
   font-size: 15px;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 .filmList{
   display: flex;

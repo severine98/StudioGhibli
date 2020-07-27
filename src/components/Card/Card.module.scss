@@ -1,5 +1,5 @@
 $base-spacing: 5px;
-$primary-color: rgb(70, 50, 111);
+$primary-color: #00ADEF;
 $secondary-color: rgb(236, 69, 102);
 $card-shadowing: 0 4px 7px rgba(0, 0, 0, 0.2),
 0 4px 7px rgba(0, 0, 0, 0.27);
@@ -12,6 +12,8 @@ $card-shadowing: 0 4px 7px rgba(0, 0, 0, 0.2),
   backface-visibility: hidden;
   background-color: white;
   position: absolute;
+  font-family: 'Noto Sans JP', sans-serif;
+
 }
 
 .recipeCard {

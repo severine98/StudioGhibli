@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 
+# Studio Ghibli 
+An interactive website where users can browse through Studio Ghibli movies and characters. On the Films page, there is the possibility to sort the movies alphabetically, by release date or run time. Clicking on the movie cards causes the cards to flip over and reveal a brief description of the movie. The Characters page displays a few protagonists, and includes each of their name, gender and age. The third page of this app is called Sevs' Watched list: this page displays movies that I have personally watched and is a great way for me to keep track of my list. The cards on this page also flip. 
+ 
+## Purpose of this project
+I really wanted to build an app that was personal to me, and that I would use in the real world. This website allowed me to practice accessing selective data from objects and rendering them in a unique way using flipping cards. The data is originally from an API, however is not dynamically fetched from its original source. As I wanted to add properties to the returned objects from the API, I decided to GET the information through Postman and copy paste the desired data in a data file in the project. I then added a few properties such as the image URLs, and characters information. This app was a great way of deepening my understanding of SCSS and JavaScript to create the flipping cards.
 
 ## Available Scripts
 
